@@ -1,22 +1,4 @@
-/*document.addEventListener('DOMContentLoaded', function() {
-    
-    document.getElementById('verificarCredenciales').addEventListener('submit', function(event) {
-       event.preventDefault();
-
-       
-        const email = document.getElementById('email').value;
-        const password = document.getElementById('password').value;
-
-        
-       if (email === 'fran@gmail.com' && password === '12345') {
-           alert('Inicio de sesión exitoso');
-           
-           window.location.href = 'Menu.html';
-       } else {
-          alert('Email/Contraseña incorrecta');
-        }
-    });
- }); */
+//funcion login
 
 $(document).ready(function () {
     $('#verificarCredenciales').submit(function (event) {

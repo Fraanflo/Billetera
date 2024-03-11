@@ -7,7 +7,7 @@ $(document).ready(function() {
   });
 
 
-
+//funcion botones 
 
 $(document).ready(function() {
     $('#boton-1').click(function() {

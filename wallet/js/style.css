@@ -1,7 +1,33 @@
+
+/*diseño titulos*/
+h1{
+    background-color: rgb(151, 197, 162);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  h2 {
+    background-color: rgb(151, 197, 162);
+    padding: 10px;
+    border-radius:10px;
+  }
+
+/* diseño balance*/
+
+ #balance{
+  background-color:rgb(255, 255, 255) ;
+  padding: 20px;
+  border: solid rgba(188, 219, 141, 0.281);
+  border-radius: 10%;
+  font-size:x-large;
+ }
+  
+/* diseño cuerpo página*/
 #container{
-    background-color: rgba(162, 211, 181, 0.774);
+    background-color: rgba(162, 211, 181, 0.322);
     font-family: Arial, Helvetica, sans-serif;
-    border: 5px solid rgba(141, 255, 11, 0.205);
+    border: 5px solid rgba(107, 160, 47, 0.205);
     padding: 20px;
-    text-align:unset;
+    text-align:center;
+    width: 100%;
+    height: 100vh;
 }
